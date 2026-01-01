@@ -19,7 +19,7 @@ public class TreeNode {
         this.right = right;
     }
 
-    public static TreeNode createTreeFromArray(int[] array) {
+    public static TreeNode createTreeFromArray(Integer[] array) {
         if (array == null || array.length == 0) {
             return null;
         }

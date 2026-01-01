@@ -30,7 +30,7 @@ public class SmallestStringStartingFromLeaf {
 
     public static void main(String[] args) {
         System.out.println(new SmallestStringStartingFromLeaf().smallestFromLeaf(
-                TreeNode.createTreeFromArray(new int[]{0,1,2,3,4,3,4})
+                TreeNode.createTreeFromArray(new Integer[]{0,1,2,3,4,3,4})
         ));
     }
 }
